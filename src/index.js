@@ -1,11 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 
-import { scatterplot } from './visualizations';
-// import './visualizations/flare.js';
+/* Import Visualizations */
+import {
+  flare,
+  scatterplot
+} from './visualizations';
 
-scatterplot();
+/* Run Visualization Code */
+flare();
+// scatterplot();
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <h2>Welcome to D3</h2>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
