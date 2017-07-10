@@ -4,12 +4,7 @@ export default class extends Component {
   render() {
     return (
       <div>
-        <div>
-          <h2>Welcome to D3</h2>
-        </div>
-        <p>
-          HI
-        </p>
+        <h2>Welcome to D3!!!</h2>
       </div>
     );
   }

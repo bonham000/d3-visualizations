@@ -8,7 +8,7 @@ const data = [
   { price: 23, time: 2, volume: 200 },
   { price: 17, time: 3, volume: 300 },
   { price: 40, time: 4, volume: 500 },
-  { price: 32, time: 5, volume: 400 },
+  { price: 32, time: 5, volume: 415 },
 ];
 
 const width = 500;

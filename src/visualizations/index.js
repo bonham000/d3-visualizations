@@ -1,2 +1,2 @@
 
-export { default as scatterplot } from './simple-scatterplot.js';
+export { default as scatterplot } from './scatterplot.js';
